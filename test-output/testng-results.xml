@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-10T10:13:18 IST" name="Suite" finished-at="2025-11-10T10:14:55 IST" duration-ms="96746">
+    <groups>
+      <group name="sanity">
+        <method signature="pharmacy_testcase.verifyTitleAndURLOfTheHomePage()[pri:1, instance:testcases.pharmacy_testcase@db44aa2]" name="verifyTitleAndURLOfTheHomePage" class="testcases.pharmacy_testcase"/>
+        <method signature="pharmacy_testcase.getPharmacyPageUrl()[pri:2, instance:testcases.pharmacy_testcase@db44aa2]" name="getPharmacyPageUrl" class="testcases.pharmacy_testcase"/>
+        <method signature="pharmacy_testcase.verifyAndHighlightPharmacySubModulesTab()[pri:3, instance:testcases.pharmacy_testcase@db44aa2]" name="verifyAndHighlightPharmacySubModulesTab" class="testcases.pharmacy_testcase"/>
+        <method signature="pharmacy_testcase.verifyElementsUnderOrderTab()[pri:4, instance:testcases.pharmacy_testcase@db44aa2]" name="verifyElementsUnderOrderTab" class="testcases.pharmacy_testcase"/>
+        <method signature="pharmacy_testcase.verifyNavigationToAnotherSubModuleAfterOpeningTheOrderSection()[pri:5, instance:testcases.pharmacy_testcase@db44aa2]" name="verifyNavigationToAnotherSubModuleAfterOpeningTheOrderSection" class="testcases.pharmacy_testcase"/>
+        <method signature="pharmacy_testcase.verifyErrorMessageOnPrintingGoodReceiptWithoutDetails()[pri:6, instance:testcases.pharmacy_testcase@db44aa2]" name="verifyErrorMessageOnPrintingGoodReceiptWithoutDetails" class="testcases.pharmacy_testcase"/>
+        <method signature="pharmacy_testcase.addNewGoodReceipt()[pri:7, instance:testcases.pharmacy_testcase@db44aa2]" name="addNewGoodReceipt" class="testcases.pharmacy_testcase"/>
+        <method signature="pharmacy_testcase.verifyAddedGoodReceipt()[pri:8, instance:testcases.pharmacy_testcase@db44aa2]" name="verifyAddedGoodReceipt" class="testcases.pharmacy_testcase"/>
+        <method signature="pharmacy_testcase.verifyDataIsAsPerAppliedDateFilter()[pri:9, instance:testcases.pharmacy_testcase@db44aa2]" name="verifyDataIsAsPerAppliedDateFilter" class="testcases.pharmacy_testcase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-11-10T10:13:18 IST" name="Test" finished-at="2025-11-10T10:14:55 IST" duration-ms="96746">
+      <class name="testcases.pharmacy_testcase">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.pharmacy_testcase@db44aa2]" started-at="2025-11-10T10:13:18 IST" name="initBrowser" finished-at="2025-11-10T10:13:26 IST" duration-ms="7962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="verifyTitleAndURLOfTheHomePage()[pri:1, instance:testcases.pharmacy_testcase@db44aa2]" started-at="2025-11-10T10:13:26 IST" name="verifyTitleAndURLOfTheHomePage" description="Verify the title and url of  the current page." finished-at="2025-11-10T10:13:29 IST" duration-ms="3520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleAndURLOfTheHomePage -->
+        <test-method signature="getPharmacyPageUrl()[pri:2, instance:testcases.pharmacy_testcase@db44aa2]" started-at="2025-11-10T10:13:30 IST" name="getPharmacyPageUrl" description="Precondition: User should be logged in and on the Pharmacy section
+1. Login in the healthapp application
+2. Scroll down menu till pharmacy
+3. Click on the pharmacy" finished-at="2025-11-10T10:13:32 IST" duration-ms="1697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPharmacyPageUrl -->
+        <test-method signature="verifyAndHighlightPharmacySubModulesTab()[pri:3, instance:testcases.pharmacy_testcase@db44aa2]" started-at="2025-11-10T10:13:32 IST" name="verifyAndHighlightPharmacySubModulesTab" description="Precondition: User should be logged in and on the Pharmacy section
+1. Click on the Pharmacy Module drop-down arrow
+2. Click on Order" finished-at="2025-11-10T10:13:35 IST" duration-ms="3403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAndHighlightPharmacySubModulesTab -->
+        <test-method signature="verifyElementsUnderOrderTab()[pri:4, instance:testcases.pharmacy_testcase@db44aa2]" started-at="2025-11-10T10:13:35 IST" name="verifyElementsUnderOrderTab" description="Precondition: User should be logged in and on the Pharmacy section
+1. Click on the Pharmacy Module drop-down arrow
+2. Click on order
+Verify the presence of the order section with all fields" finished-at="2025-11-10T10:13:36 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsUnderOrderTab -->
+        <test-method signature="verifyNavigationToAnotherSubModuleAfterOpeningTheOrderSection()[pri:5, instance:testcases.pharmacy_testcase@db44aa2]" started-at="2025-11-10T10:13:36 IST" name="verifyNavigationToAnotherSubModuleAfterOpeningTheOrderSection" description="Precondition: User should be logged in and on the Pharmacy section
+1. Click on the Order
+2. Click on the Supplier" finished-at="2025-11-10T10:13:36 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToAnotherSubModuleAfterOpeningTheOrderSection -->
+        <test-method signature="verifyErrorMessageOnPrintingGoodReceiptWithoutDetails()[pri:6, instance:testcases.pharmacy_testcase@db44aa2]" started-at="2025-11-10T10:13:37 IST" name="verifyErrorMessageOnPrintingGoodReceiptWithoutDetails" description="Verify that the user is logged in and is on the Pharmacy section.
+If the user is on the Pharmacy section, 
+then click on the &quot;New Good Receipt&quot; button and 
+scroll to the bottom of the screen and 
+click on the &quot;Print Receipt&quot; button." finished-at="2025-11-10T10:13:43 IST" duration-ms="6161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageOnPrintingGoodReceiptWithoutDetails -->
+        <test-method signature="addNewGoodReceipt()[pri:7, instance:testcases.pharmacy_testcase@db44aa2]" started-at="2025-11-10T10:13:43 IST" name="addNewGoodReceipt" description="Precondition: User should be logged in and on the Pharmacy section
+1. Click on the new Good Receipt button
+User should be able to click on the new Good Receipt button
+User should be able to add a new receipt after filling all mandatory fields" finished-at="2025-11-10T10:14:17 IST" duration-ms="33929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewGoodReceipt -->
+        <test-method signature="verifyAddedGoodReceipt()[pri:8, instance:testcases.pharmacy_testcase@db44aa2]" started-at="2025-11-10T10:14:17 IST" name="verifyAddedGoodReceipt" description="Verify that the user can view the added receipt.
+If the receipt is added, 
+then click on the &quot;View&quot; button." finished-at="2025-11-10T10:14:21 IST" duration-ms="3953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedGoodReceipt -->
+        <test-method signature="verifyDataIsAsPerAppliedDateFilter()[pri:9, instance:testcases.pharmacy_testcase@db44aa2]" started-at="2025-11-10T10:14:21 IST" name="verifyDataIsAsPerAppliedDateFilter" description="Pre condition: User should be logged in and it is on Pharmacy section
+1. Click on the &quot;From&quot; date
+2. Select the &quot;From&quot; date
+3. Click on the &quot;To&quot; date
+4. Select &quot;To&quot; date
+5. Click on &quot;OK&quot; button" finished-at="2025-11-10T10:14:54 IST" duration-ms="32901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataIsAsPerAppliedDateFilter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.pharmacy_testcase@db44aa2]" started-at="2025-11-10T10:14:54 IST" name="tearDown" finished-at="2025-11-10T10:14:55 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.pharmacy_testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
